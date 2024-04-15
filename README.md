@@ -21,6 +21,6 @@ Live server extension on VS code is required to play "House Lights."
 
 ## Feedback
 
-If you have any feedback or encounter any issues while playing "House Lights," please feel free to contact us at [luta@ucsc.edu].
+If you have any feedback or encounter any issues while playing "House Lights," please feel free to contact me at [luta@ucsc.edu].
 
 Enjoy the story!
