@@ -1,10 +1,10 @@
 {
     "Title": "House Lights",
-    "Credits": ["Code Created by Adam Smith (amsmith@ucsc.edu)", "Story by Luan Ta (luta@ucsc.edu)."],
+    "Credits": ["Base code created by Adam Smith (amsmith@ucsc.edu)", "Story by Luan Ta (luta@ucsc.edu)."],
     "InitialLocation": "Living1",
     "Locations": {
         "Living1": {
-            "Body": "After a night out with your friends, you get home. You discover that the lights do not work. You decide to check the circuit breaker in the basement but without a light source, it would be difficult to check. Unfortunately, your phone died an hour ago. You need to find a flashlight. (Messsage prompt: you have no flashlight or battery)",
+            "Body": "After a night out with your friends, you get home. You discover that the lights do not work. You decide to check the circuit breaker in the basement but without a light source, it would be difficult to check. Unfortunately, your phone died an hour ago. You need to find a lightsource.",
             "Choices": [
                 {
                     "Text": "Check Garage",
@@ -21,7 +21,7 @@
             ]
         },
         "Garage1": {
-            "Body":"Search shed, finds flashlight",
+            "Body":"You go in the garage. You somehow found a flashlight in the darkness. Good thing you remember where you left them. Unfortunately, it doesn't work when you tried to turn it on. Maybe the batteries are dead.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -34,7 +34,7 @@
             ]
         },
         "Base1": {
-            "Body": "Basement door: Don't allow entry unless you have a flashlight and batteries",
+            "Body": "You try for the basement, but it's too dark in there. You need a lightsource.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -43,7 +43,7 @@
             ]
         },
         "Car1": {
-            "Body": "Check car, Finds nothing, Car door was unlocked, can't remember if you forgot to lock it or not. Found batteries.",
+            "Body": "You go out the house to your car. You open the door. But wait, didn't you lock the car before you went in? Suspicious, you inspected the car. You found no one and nothing useful except for a pair of batteries.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -74,7 +74,7 @@
             ]
         },
         "Living2": {
-            "Body": "You are now back in the living room. (Message Prompt: you have flashlight but no battery)",
+            "Body": "You are now back in the living room with a dead flashlight.",
             "Choices": [
                 {
                     "Text": "Check Car",
@@ -87,7 +87,7 @@
             ]
         },
         "Base2": {
-            "Body": "Basement door: you have flashlight but no battery",
+            "Body": "You try for the basement, but it's too dark in there. You need a lightsource. You only have a dead flashlight.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -96,7 +96,7 @@
             ]
         },
         "Car2": {
-            "Body": "Check car, Finds nothing, Car door was unlocked, can't remember if you forgot to lock it or not. Found batteries.",
+            "Body": "You go out the house to your car. You open the door. But wait, didn't you lock the car before you went in? Suspicious, you inspected the car. You found no one and nothing useful except for a pair of batteries.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -118,7 +118,7 @@
             ]
         },
         "Living3": {
-            "Body": "You are now back in the living room. (Message Prompt: you have battery but no flashlight)",
+            "Body": "You are now back in the living room with a pair of batteries in your pocket. It might be useful, you thought.",
             "Choices": [
                 {
                     "Text": "Check Garage",
@@ -131,7 +131,7 @@
             ]
         },
         "Base3": {
-            "Body": "Basement door: you have battery but no flashlight",
+            "Body": "You try for the basement, but it's too dark in there. You need a lightsource. You only have batteries.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -140,7 +140,7 @@
             ]
         },
         "Garage2": {
-            "Body": "Search shed, finds flashlight",
+            "Body": "You go in the garage. You somehow found a flashlight in the darkness. Good thing you remember where you left them. Unfortunately, it doesn't work when you tried to turn it on. Maybe the batteries are dead.",
             "Choices": [
                 {
                     "Text": "Go Back",
@@ -162,7 +162,7 @@
             ]
         },
         "Living4": {
-            "Body": "You are back in the living room. (Message Prompt: you have battery AND flashlight)",
+            "Body": "You are back in the living room with a flashlight that is now working with the fresh batteries.",
             "Choices": [
                 {
                     "Text": "Fix The Lights",
@@ -171,7 +171,7 @@
             ]
         },
         "Fix": {
-            "Body": "You go in the basement. You fix fuse and the lights came on. Suddenly, you hear your front door close.",
+            "Body": "You finally could go in the basement. You fix fuse and the lights came on. Suddenly, you hear your front door close.",
             "Choices": [
                 {
                     "Text": "Go back up",
@@ -206,7 +206,7 @@
             ]
         },
         "Bat": {
-            "Body": "Bat Scenario",
+            "Body": "As you grasp the sturdy wooden bat, you feel a sense of reassurance in its weight. Confidently, you head towards the front door, ready to confront whoever may be lurking outside. Just as you reach for the doorknob, you hear a noise behind you. Turning quickly, you see a shadowy figure lunging at you from the darkness. Reacting swiftly, you swing the bat with all your strength, connecting with a satisfying thud. But before you can celebrate your victory, a sudden blow to the back of your head sends you into darkness.",
             "Choices": [
                 {
                     "Text": "Continue",
@@ -215,7 +215,7 @@
             ]
         },
         "Brass": {
-            "Body": "Brass Knuckles Scenario",
+            "Body": "You slip the brass knuckles over your fingers, their weight adding a sense of purpose to your clenched fists. With determination, you step outside, prepared to defend yourself against any potential threat. As you scan the surroundings, you catch a glimpse of movement near the bushes. Instinctively, you approach, ready to confront the intruder. Suddenly, a figure emerges, charging towards you with surprising speed. Without hesitation, you throw a punch, feeling the impact of metal against flesh. But as you revel in your brief triumph, a sudden blow from behind sends you spiraling into unconsciousness.",
             "Choices": [
                 {
                     "Text": "Continue",
@@ -224,7 +224,7 @@
             ]
         },
         "Bar": {
-            "Body": "Crowbar Scenario",
+            "Body": "Gripping the cold metal of the crowbar, you feel a surge of adrenaline as you prepare to face whatever danger may lie outside. With cautious steps, you venture into the darkness, the crowbar held tightly in your grasp. As you reach the driveway, you notice movement near your car. With a mix of caution and determination, you approach, ready to defend yourself against any potential threat. Suddenly, a shadowy figure emerges from the darkness, lunging towards you with surprising agility. Reacting quickly, you swing the crowbar, the sound of metal meeting bone echoing through the night. But before you can fully comprehend what just happened, a sudden blow to the side of your head sends you tumbling into unconsciousness.",
             "Choices": [
                 {
                     "Text": "Continue",
@@ -233,7 +233,7 @@
             ]
         },
         "Continue": {
-            "Body": "Ending"
+            "Body": "As you slowly regain consciousness in the back of the car, confusion clouds your thoughts. Your head throbs with pain, and you struggle to piece together what has happened. Sensing movement in the front seat, you turn to see a figure sitting behind the wheel.\n\n\"Are you okay?\" the driver asks, genuine concern evident in his voice.\n\nStill disoriented, you manage a weak affirmation before your mind races with questions. \"Who are you and why are you driving my car?\", you ask. Why can't you remember anything?\n\n\"How can you ask your friend a question like that?\" the driver continues, a hint of amusement in his tone. \"We were out all night, and you got pretty drunk. You asked me to drive you home.\"\n\nThe explanation seems plausible, but you can't shake the feeling of unease gnawing at you. However, you are too exhausted to push further, too weary to insist on confirming the driver's identity.\n\nNodding faintly, you mutter a response before sinking back into the seat, your eyelids heavy with fatigue. As the car continues its journey, you drift in and out of consciousness, the events of the night shrouded in mystery."
         }
     }
 }
